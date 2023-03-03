@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #countdowns & stops the Minecraft server
 #(screen -S Minecraft -X stuff) makes everything in quotes execute in console screen (Also ^M = ENTER)
 
@@ -16,7 +18,7 @@ sleep 1
 screen -S Minecraft -X stuff "echo say 3^M"
 sleep 1
 screen -S Minecraft -X stuff "echo say 2^M"
-sleep 1
+sleep 1 
 screen -S Minecraft -X stuff "echo say 1^M"
 sleep 1
 #stops the server
