@@ -62,6 +62,7 @@ if [ $(date +"%a") = Mon ]; then
   rm -r backups/weekly/$deleteFormat*
 fi
 
+
 #Monthly Backups: Creates backups every 1st of a month
 
 #checks if it is the 1st of a month
