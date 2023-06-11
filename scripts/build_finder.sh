@@ -2,7 +2,6 @@
 
 #This script finds the build version and number
 
-
 #finds/set a variable for the latest version (use once 1.19 comes out)
 latest_version=$(curl https://api.papermc.io/v2/projects/paper | sed 's/.*,"//' | sed 's/"]}//')
 
